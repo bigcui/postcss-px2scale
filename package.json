@@ -1,0 +1,29 @@
+{
+  "name": "postcss-px2scale",
+  "description": "Postcss version of px2rpx px自动缩小倍数",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bigcui/postcss-px2scale",
+  "author": "bigcui <cuihonglei@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/bigcui/postcss-px2scale.git"
+  },
+  "dependencies": {
+    "css": "^2.2.4",
+    "extend": "^3.0.2",
+    "postcss": "^5.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "autoprefixer": "^6.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "keywords": [
+    "px2rpx",
+    "postcss-plugin"
+  ],
+  "license": "MIT"
+}
